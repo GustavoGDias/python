@@ -17,9 +17,9 @@ import random
 
 # Lista de participantes e seus e-mails
 participantes = {
-    'leo': 'ncastlepriv@gmail.com',
-    'gustavo': 'contajoojs1@gmail.com',
-    'lucas': 'joojsconta@gmail.com',
+    'leo': 'exemple@gmail.com',
+    'gustavo': 'exemple@gmail.com',
+    'lucas': 'exemple@gmail.com',
     # Adicione mais participantes conforme necessário
 }
 
@@ -36,8 +36,8 @@ def enviar_amigo_secreto(participantes):
 
 # Função para enviar e-mail
 def enviar_email(nome, email, amigo_secreto):
-    remetente = 'contajoojs@gmail.com'  # Seu e-mail
-    senha = '486957123gudias'  # Sua senha
+    remetente = 'exemple@gmail.com'  # Seu e-mail
+    senha = 'exemplepassword'  # Sua senha
 
     mensagem = MIMEMultipart()
     mensagem['From'] = remetente
